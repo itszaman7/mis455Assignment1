@@ -1,0 +1,211 @@
+
+
+body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+
+.navbar {
+    height: 90px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative; 
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.navbar ul li:hover{
+    font-weight: 550;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block; 
+    position: relative; 
+}
+
+.navbar ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -33; 
+    left: 0;
+    width: 0;
+    height: 3.5px;
+    background-color: black;
+    
+}
+
+.navbar ul li a:hover::after {
+    width: 100%; 
+}
+
+.navbar img {
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.homePanel {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.homePanel img{
+    margin: 20px;
+    border-radius: 15px;
+    height: 720px;
+    width: 1280px;
+}
+
+.experiences{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+.headline{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+}
+
+.paragraph-card {
+    width: 512px;
+    height: 512px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 64px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+    background-color: white;
+    margin-top: 15px;
+}
+
+.paragraph-card h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.paragraph-card p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+}
+
+.paragraph-card button {
+    margin-top: 100px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+}
+
+.lowerCard img{
+    margin-top: 15px;
+    height: 640px;
+    width: 700px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.cardCollection{
+    display: flex;
+}
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandGrids div {
+    background-color: white;
+    height: 260px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandGrids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    padding: 10px;
+}
+
+.brandGrids div:hover {
+    transform: scale(1.15);
+    transition: 300ms;
+} 
+
+.brandGrids img {
+    height: 196px;
+    width: 196px;
+}
+
+.brandP {
+    margin-top: 100px;
+}
+
+.brandP p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 50px;
+    color: rgb(185, 183, 183);
+}
+
+.imgTitle {
+    background-color: white;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+    background-image: url("/images/drinking_coke.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgTitle h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    color: white;
+}
+
+.imgTitle p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+}
