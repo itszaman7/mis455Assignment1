@@ -4,7 +4,7 @@ body {
     margin: auto;
     height: 100%;
     width: 100%;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(230, 229, 229);
 }
 
 .navbar {
@@ -80,8 +80,7 @@ body {
 }
 
 .experiences{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,3 +208,178 @@ body {
     font-size: 20px;
     color: white;
 }
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.discover img {
+    height: 720px;
+    width: 1200px;
+    border-radius: 15px;
+}
+
+.spriteSlogan br {
+    margin: 10px;
+}
+
+.spriteSlogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 60px;
+    margin: 50px;
+}
+
+.spriteSlogan h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.spriteSlogan p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    width: 900px;
+}
+
+
+.recycle {
+    background-color: white;
+    padding: 40px;
+    margin: 50px;
+    border-radius: 15px;
+    background-image: url("/images/recycle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+
+.recycle h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.recycle p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.recycle button {
+    margin-top: 100px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+}
+
+.shopHead{
+    background-color: white;
+    padding: 40px;
+    margin: 50px;
+    border-radius: 15px;
+    background-image: url("/images/foodpanda.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.shopHead h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.shopHead p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.shopHead button {
+    margin-top: 100px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridShop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    padding: 10px;
+}
+
+.shopCard {
+    width: 200px;
+    height: 285px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 20px;
+    background-color: white;
+}
+
+.shopCard h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.shopCard img {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: white;
+}
+
+.shopCard button {
+    width: 130px;
+    height: 28px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1920px) {
+    .recycle {
+        width: 1180px;
+    }
+}
+
